@@ -21,6 +21,11 @@ def about():
     return render_template('about.html')
 
 
+@app.route("/more")
+def more():
+    return render_template('more.html')
+
+
 '''
 @app.route("/home")
 def home():
